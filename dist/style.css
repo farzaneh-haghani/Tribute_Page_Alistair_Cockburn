@@ -1,0 +1,64 @@
+body{
+  margin: 40px;
+  font-size: 18px;
+}
+#title{
+  text-align: center;
+}
+.flex{
+  display : flex;
+  direction: rtl;
+}
+#img-div{
+  width: 2500px;
+  height: 450px;
+  border: 1px solid;
+  direction: ltr;
+  font-size: 14px;
+  background-color: #F1F1F1;
+  text-align: center;
+}
+.img-pad{
+  padding: 10px 25px;  
+}
+#image {
+  border-radius: 30px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+table{
+  margin:10px 0px;
+  text-align: left;
+}
+.td-title{
+  font-weight: bold;
+}
+#tribute-info{
+  direction: ltr;
+  margin-right: 40px;
+}
+.text-title{
+  font-weight: bold;
+  font-size: 20px;
+}
+#tribute-link{
+  text-decoration: none;
+}
+@media(max-width:800px)
+{
+  body{
+    margin: 10px;
+  }
+  #img-div{
+    font-size: 10px;
+  }
+  @media(min-width:800px)and(max-width:1300px)
+{
+  body{
+    margin: 10px;
+  }
+  #img-div{
+    font-size: 12px;   
+  }
+}
